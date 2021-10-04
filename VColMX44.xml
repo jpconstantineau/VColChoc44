@@ -1,0 +1,2156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\GIT\VColChoc44\VColMX44.sch</source>
+    <date>2021-10-03 5:33:53 PM</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>VColMX44.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/RP2040/" tstamps="/617F9567/">
+      <title_block>
+        <title>PyKey60 RP2040</title>
+        <company>Pierre Constantineau (JPConstantineau)</company>
+        <rev>1.0</rev>
+        <date>2021-09-16</date>
+        <source>RP2040.sch</source>
+        <comment number="1" value="License: CERN-OHL-W (CERN OHL v2)"/>
+        <comment number="2" value="Project: https://github.com/jpconstantineau/PyKey60"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D44">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615B2972</tstamp>
+    </comp>
+    <comp ref="U44">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615B2968</tstamp>
+    </comp>
+    <comp ref="D33">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615B294A</tstamp>
+    </comp>
+    <comp ref="U33">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615B2940</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615B2922</tstamp>
+    </comp>
+    <comp ref="U22">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615B2918</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615B28FA</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615B28F0</tstamp>
+    </comp>
+    <comp ref="D43">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615B28D2</tstamp>
+    </comp>
+    <comp ref="U43">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615B28C8</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615B28AA</tstamp>
+    </comp>
+    <comp ref="U32">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615B28A0</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615B2882</tstamp>
+    </comp>
+    <comp ref="U21">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615B2878</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615B285A</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615B2850</tstamp>
+    </comp>
+    <comp ref="D42">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615B2832</tstamp>
+    </comp>
+    <comp ref="U42">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615B2828</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615B280A</tstamp>
+    </comp>
+    <comp ref="U31">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615B2800</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615B27E2</tstamp>
+    </comp>
+    <comp ref="U20">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615B27D8</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615B27BA</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615B1D10</tstamp>
+    </comp>
+    <comp ref="D41">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615794C0</tstamp>
+    </comp>
+    <comp ref="U41">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615794B6</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61579498</tstamp>
+    </comp>
+    <comp ref="U30">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6157948E</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61579470</tstamp>
+    </comp>
+    <comp ref="U19">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61579466</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61579448</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6157943E</tstamp>
+    </comp>
+    <comp ref="D40">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61579420</tstamp>
+    </comp>
+    <comp ref="U40">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61579416</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615793F8</tstamp>
+    </comp>
+    <comp ref="U29">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615793EE</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615793D0</tstamp>
+    </comp>
+    <comp ref="U18">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615793C6</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615793A8</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6157939E</tstamp>
+    </comp>
+    <comp ref="D39">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61579380</tstamp>
+    </comp>
+    <comp ref="U39">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61579376</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61579358</tstamp>
+    </comp>
+    <comp ref="U28">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6157934E</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61579330</tstamp>
+    </comp>
+    <comp ref="U17">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61579326</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61579308</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615792FE</tstamp>
+    </comp>
+    <comp ref="D38">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615792E0</tstamp>
+    </comp>
+    <comp ref="U38">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615792D6</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615792B8</tstamp>
+    </comp>
+    <comp ref="U27">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615792AE</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61579290</tstamp>
+    </comp>
+    <comp ref="U16">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61579286</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61579268</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61578CFE</tstamp>
+    </comp>
+    <comp ref="D37">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6155E796</tstamp>
+    </comp>
+    <comp ref="U37">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6155E78C</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6155E76E</tstamp>
+    </comp>
+    <comp ref="U26">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6155E764</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6155E746</tstamp>
+    </comp>
+    <comp ref="U15">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6155E73C</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6155E71E</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6155E714</tstamp>
+    </comp>
+    <comp ref="D36">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6155E6F6</tstamp>
+    </comp>
+    <comp ref="U36">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6155E6EC</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6155E6CE</tstamp>
+    </comp>
+    <comp ref="U25">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6155E6C4</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6155E6A6</tstamp>
+    </comp>
+    <comp ref="U14">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6155E69C</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6155E67E</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6155E3B4</tstamp>
+    </comp>
+    <comp ref="D35">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61556D4E</tstamp>
+    </comp>
+    <comp ref="U35">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61556D44</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61556D26</tstamp>
+    </comp>
+    <comp ref="U24">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61556D1C</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61556CFE</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61556CF4</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61556CD6</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61556B5C</tstamp>
+    </comp>
+    <comp ref="D34">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61552B30</tstamp>
+    </comp>
+    <comp ref="U34">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61552B26</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61552B08</tstamp>
+    </comp>
+    <comp ref="U23">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61552A36</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6154EFA0</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6154EF22</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6154A47B</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>CherryMX_LTST-A683CEGBW-Rotated</value>
+      <footprint>keyswitches:Kailh_socket_PG1350_sk6812mini_e</footprint>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615482AC</tstamp>
+    </comp>
+    <comp ref="LS1">
+      <value>Speaker</value>
+      <footprint>Buzzer_Beeper:Buzzer_Mallory_AST1109MLTRQ</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Speaker" description="Speaker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61BDC9F9</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>USB_C_Receptacle_USB2.0</value>
+      <footprint>Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <sheetpath names="/RP2040/" tstamps="/617F9567/"/>
+      <tstamp>613B693C</tstamp>
+    </comp>
+    <comp ref="U46">
+      <value>RP2040</value>
+      <footprint>MCU_RaspberryPi_and_Boards:RP2040-QFN-56</footprint>
+      <fields>
+        <field name="LCSC">C2040</field>
+      </fields>
+      <libsource lib="MCU_RaspberryPi_and_Boards" part="RP2040" description=""/>
+      <sheetpath names="/RP2040/" tstamps="/617F9567/"/>
+      <tstamp>613CBB0D</tstamp>
+    </comp>
+    <comp ref="U45">
+      <value>W25Q128JVS</value>
+      <footprint>Package_SO:SOIC-8_5.23x5.23mm_P1.27mm</footprint>
+      <datasheet>http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C97521</field>
+      </fields>
+      <libsource lib="Memory_Flash" part="W25Q128JVS" description="128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"/>
+      <sheetpath names="/RP2040/" tstamps="/617F9567/"/>
+      <tstamp>613CF811</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23186</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/RP2040/" tstamps="/617F9567/"/>
+      <tstamp>613E8076</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23186</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/RP2040/" tstamps="/617F9567/"/>
+      <tstamp>613E902E</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/RP2040/" tstamps="/617F9567/"/>
+      <tstamp>6140E03B</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>DNP</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/RP2040/" tstamps="/617F9567/"/>
+      <tstamp>6140F88E</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/RP2040/" tstamps="/617F9567/"/>
+      <tstamp>61410D4C</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_SPST</value>
+      <footprint>Button_Switch_SMD:SW_SPST_TL3342</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/RP2040/" tstamps="/617F9567/"/>
+      <tstamp>6142E477</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/RP2040/" tstamps="/617F9567/"/>
+      <tstamp>614333CB</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/RP2040/" tstamps="/617F9567/"/>
+      <tstamp>61433EC3</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/RP2040/" tstamps="/617F9567/"/>
+      <tstamp>61459EC2</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/RP2040/" tstamps="/617F9567/"/>
+      <tstamp>6145ADBB</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/RP2040/" tstamps="/617F9567/"/>
+      <tstamp>6145AF74</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/RP2040/" tstamps="/617F9567/"/>
+      <tstamp>6145B277</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/RP2040/" tstamps="/617F9567/"/>
+      <tstamp>6145B538</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/RP2040/" tstamps="/617F9567/"/>
+      <tstamp>6145B7E7</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/RP2040/" tstamps="/617F9567/"/>
+      <tstamp>6145BA06</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/RP2040/" tstamps="/617F9567/"/>
+      <tstamp>6145BCBB</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/RP2040/" tstamps="/617F9567/"/>
+      <tstamp>6145C03C</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C15849</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/RP2040/" tstamps="/617F9567/"/>
+      <tstamp>6145C201</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C15849</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/RP2040/" tstamps="/617F9567/"/>
+      <tstamp>6146031A</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>12MHz</value>
+      <footprint>Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C93114</field>
+      </fields>
+      <libsource lib="Device" part="Crystal_GND24_Small" description="Four pin crystal, GND on pins 2 and 4, small symbol"/>
+      <sheetpath names="/RP2040/" tstamps="/617F9567/"/>
+      <tstamp>614BE287</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>22p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1653</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/RP2040/" tstamps="/617F9567/"/>
+      <tstamp>614C3269</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>22p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1653</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/RP2040/" tstamps="/617F9567/"/>
+      <tstamp>614C3674</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/RP2040/" tstamps="/617F9567/"/>
+      <tstamp>614CD762</tstamp>
+    </comp>
+    <comp ref="U47">
+      <value>AMS1117-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.advanced-monolithic.com/pdf/ds1117.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C6186</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="AMS1117-3.3" description="1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"/>
+      <sheetpath names="/RP2040/" tstamps="/617F9567/"/>
+      <tstamp>6310C399</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>22u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C59461</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/RP2040/" tstamps="/617F9567/"/>
+      <tstamp>63148765</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>22u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C59461</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/RP2040/" tstamps="/617F9567/"/>
+      <tstamp>63148ED5</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_SPDT</value>
+      <footprint>Button_Switch_SMD:SW_SPDT_PCM12</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <sheetpath names="/RP2040/" tstamps="/617F9567/"/>
+      <tstamp>62E2CDDD</tstamp>
+    </comp>
+    <comp ref="D45">
+      <value>RED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C2286</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/RP2040/" tstamps="/617F9567/"/>
+      <tstamp>66779196</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/RP2040/" tstamps="/617F9567/"/>
+      <tstamp>66779D92</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="CherryMX" part="CherryMX_LTST-A683CEGBW-Rotated">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CherryMX_LTST-A683CEGBW-Rotated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="DIN" type="input"/>
+        <pin num="5" name="DOUT" type="output"/>
+        <pin num="6" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_C_Receptacle_USB2.0">
+      <description>USB 2.0-only Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="BiDi"/>
+        <pin num="A6" name="D+" type="BiDi"/>
+        <pin num="A7" name="D-" type="BiDi"/>
+        <pin num="A8" name="SBU1" type="BiDi"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="BiDi"/>
+        <pin num="B6" name="D+" type="BiDi"/>
+        <pin num="B7" name="D-" type="BiDi"/>
+        <pin num="B8" name="SBU2" type="BiDi"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24_Small">
+      <description>Four pin crystal, GND on pins 2 and 4, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Speaker">
+      <description>Speaker</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">LS</field>
+        <field name="Value">Speaker</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_RaspberryPi_and_Boards" part="RP2040">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RP2040</field>
+        <field name="Footprint">RP2040_minimal:RP2040-QFN-56</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IOVDD" type="power_in"/>
+        <pin num="2" name="GPIO0" type="BiDi"/>
+        <pin num="3" name="GPIO1" type="BiDi"/>
+        <pin num="4" name="GPIO2" type="BiDi"/>
+        <pin num="5" name="GPIO3" type="BiDi"/>
+        <pin num="6" name="GPIO4" type="BiDi"/>
+        <pin num="7" name="GPIO5" type="BiDi"/>
+        <pin num="8" name="GPIO6" type="BiDi"/>
+        <pin num="9" name="GPIO7" type="BiDi"/>
+        <pin num="10" name="IOVDD" type="power_in"/>
+        <pin num="11" name="GPIO8" type="BiDi"/>
+        <pin num="12" name="GPIO9" type="BiDi"/>
+        <pin num="13" name="GPIO10" type="BiDi"/>
+        <pin num="14" name="GPIO11" type="BiDi"/>
+        <pin num="15" name="GPIO12" type="BiDi"/>
+        <pin num="16" name="GPIO13" type="BiDi"/>
+        <pin num="17" name="GPIO14" type="BiDi"/>
+        <pin num="18" name="GPIO15" type="BiDi"/>
+        <pin num="19" name="TESTEN" type="passive"/>
+        <pin num="20" name="XIN" type="input"/>
+        <pin num="21" name="XOUT" type="passive"/>
+        <pin num="22" name="IOVDD" type="power_in"/>
+        <pin num="23" name="DVDD" type="power_in"/>
+        <pin num="24" name="SWCLK" type="output"/>
+        <pin num="25" name="SWD" type="BiDi"/>
+        <pin num="26" name="RUN" type="input"/>
+        <pin num="27" name="GPIO16" type="BiDi"/>
+        <pin num="28" name="GPIO17" type="BiDi"/>
+        <pin num="29" name="GPIO18" type="BiDi"/>
+        <pin num="30" name="GPIO19" type="BiDi"/>
+        <pin num="31" name="GPIO20" type="BiDi"/>
+        <pin num="32" name="GPIO21" type="BiDi"/>
+        <pin num="33" name="IOVDD" type="power_in"/>
+        <pin num="34" name="GPIO22" type="BiDi"/>
+        <pin num="35" name="GPIO23" type="BiDi"/>
+        <pin num="36" name="GPIO24" type="BiDi"/>
+        <pin num="37" name="GPIO25" type="BiDi"/>
+        <pin num="38" name="GPIO26_ADC0" type="BiDi"/>
+        <pin num="39" name="GPIO27_ADC1" type="BiDi"/>
+        <pin num="40" name="GPIO28_ADC2" type="BiDi"/>
+        <pin num="41" name="GPIO29_ADC3" type="BiDi"/>
+        <pin num="42" name="IOVDD" type="power_in"/>
+        <pin num="43" name="ADC_AVDD" type="power_in"/>
+        <pin num="44" name="VREG_IN" type="power_in"/>
+        <pin num="45" name="VREG_VOUT" type="power_out"/>
+        <pin num="46" name="USB_DM" type="BiDi"/>
+        <pin num="47" name="USB_DP" type="BiDi"/>
+        <pin num="48" name="USB_VDD" type="power_in"/>
+        <pin num="49" name="IOVDD" type="power_in"/>
+        <pin num="50" name="DVDD" type="power_in"/>
+        <pin num="51" name="QSPI_SD3" type="BiDi"/>
+        <pin num="52" name="QSPI_SCLK" type="output"/>
+        <pin num="53" name="QSPI_SD0" type="BiDi"/>
+        <pin num="54" name="QSPI_SD2" type="BiDi"/>
+        <pin num="55" name="QSPI_SD1" type="BiDi"/>
+        <pin num="56" name="QSPI_SS" type="BiDi"/>
+        <pin num="57" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Memory_Flash" part="W25Q32JVSS">
+      <aliases>
+        <alias>W25Q128JVS</alias>
+      </aliases>
+      <description>32Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8</description>
+      <docs>http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf</docs>
+      <footprints>
+        <fp>SOIC*5.23x5.23mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">W25Q32JVSS</field>
+        <field name="Footprint">Package_SO:SOIC-8_5.23x5.23mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~CS" type="input"/>
+        <pin num="2" name="DO(IO1)" type="BiDi"/>
+        <pin num="3" name="IO2" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DI(IO0)" type="BiDi"/>
+        <pin num="6" name="CLK" type="input"/>
+        <pin num="7" name="IO3" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AP1117-15">
+      <aliases>
+        <alias>AP1117-18</alias>
+        <alias>AP1117-25</alias>
+        <alias>AP1117-33</alias>
+        <alias>AP1117-50</alias>
+        <alias>LD1117S33TR_SOT223</alias>
+        <alias>LD1117S12TR_SOT223</alias>
+        <alias>LD1117S18TR_SOT223</alias>
+        <alias>LD1117S25TR_SOT223</alias>
+        <alias>LD1117S50TR_SOT223</alias>
+        <alias>NCP1117-12_SOT223</alias>
+        <alias>NCP1117-1.5_SOT223</alias>
+        <alias>NCP1117-1.8_SOT223</alias>
+        <alias>NCP1117-2.0_SOT223</alias>
+        <alias>NCP1117-2.5_SOT223</alias>
+        <alias>NCP1117-2.85_SOT223</alias>
+        <alias>NCP1117-3.3_SOT223</alias>
+        <alias>NCP1117-5.0_SOT223</alias>
+        <alias>AMS1117-1.5</alias>
+        <alias>AMS1117-1.8</alias>
+        <alias>AMS1117-2.5</alias>
+        <alias>AMS1117-2.85</alias>
+        <alias>AMS1117-3.3</alias>
+        <alias>AMS1117-5.0</alias>
+      </aliases>
+      <description>1A Low Dropout regulator, positive, 1.5V fixed output, SOT-223</description>
+      <docs>http://www.diodes.com/datasheets/AP1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP1117-15</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="CherryMX">
+      <uri>C:\GIT\VColChoc44/symbols/CherryMX.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="MCU_RaspberryPi_and_Boards">
+      <uri>C:\GIT\VColChoc44/symbols/MCU_RaspberryPi_and_Boards.lib</uri>
+    </library>
+    <library logical="Memory_Flash">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Memory_Flash.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="U7" pin="6"/>
+      <node ref="U8" pin="6"/>
+      <node ref="U39" pin="6"/>
+      <node ref="U28" pin="6"/>
+      <node ref="U18" pin="6"/>
+      <node ref="U14" pin="6"/>
+      <node ref="U25" pin="6"/>
+      <node ref="U35" pin="6"/>
+      <node ref="C15" pin="1"/>
+      <node ref="U29" pin="6"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U42" pin="6"/>
+      <node ref="U44" pin="6"/>
+      <node ref="U10" pin="6"/>
+      <node ref="U32" pin="6"/>
+      <node ref="U20" pin="6"/>
+      <node ref="U21" pin="6"/>
+      <node ref="U11" pin="6"/>
+      <node ref="U9" pin="6"/>
+      <node ref="U41" pin="6"/>
+      <node ref="U33" pin="6"/>
+      <node ref="U30" pin="6"/>
+      <node ref="U22" pin="6"/>
+      <node ref="U6" pin="6"/>
+      <node ref="U37" pin="6"/>
+      <node ref="U5" pin="6"/>
+      <node ref="U19" pin="6"/>
+      <node ref="U16" pin="6"/>
+      <node ref="U40" pin="6"/>
+      <node ref="U31" pin="6"/>
+      <node ref="U43" pin="6"/>
+      <node ref="U38" pin="6"/>
+      <node ref="U27" pin="6"/>
+      <node ref="U17" pin="6"/>
+      <node ref="U46" pin="22"/>
+      <node ref="U46" pin="33"/>
+      <node ref="U36" pin="6"/>
+      <node ref="U12" pin="6"/>
+      <node ref="U13" pin="6"/>
+      <node ref="U46" pin="1"/>
+      <node ref="U26" pin="6"/>
+      <node ref="U46" pin="10"/>
+      <node ref="U45" pin="8"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U23" pin="6"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U4" pin="6"/>
+      <node ref="U46" pin="48"/>
+      <node ref="U46" pin="49"/>
+      <node ref="U46" pin="44"/>
+      <node ref="U46" pin="43"/>
+      <node ref="U34" pin="6"/>
+      <node ref="U46" pin="42"/>
+      <node ref="C10" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U15" pin="6"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U3" pin="6"/>
+      <node ref="U24" pin="6"/>
+      <node ref="U47" pin="2"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="U37" pin="3"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U22" pin="3"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U9" pin="3"/>
+      <node ref="U5" pin="3"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U16" pin="3"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U41" pin="3"/>
+      <node ref="U26" pin="3"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U38" pin="3"/>
+      <node ref="U32" pin="3"/>
+      <node ref="U43" pin="3"/>
+      <node ref="U21" pin="3"/>
+      <node ref="U44" pin="3"/>
+      <node ref="U6" pin="3"/>
+      <node ref="U11" pin="3"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U17" pin="3"/>
+      <node ref="U33" pin="3"/>
+      <node ref="U27" pin="3"/>
+      <node ref="C11" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C12" pin="2"/>
+      <node ref="U47" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U45" pin="4"/>
+      <node ref="U46" pin="57"/>
+      <node ref="C14" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="D45" pin="1"/>
+      <node ref="U39" pin="3"/>
+      <node ref="U46" pin="19"/>
+      <node ref="Y1" pin="4"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="U7" pin="3"/>
+      <node ref="U18" pin="3"/>
+      <node ref="U28" pin="3"/>
+      <node ref="U40" pin="3"/>
+      <node ref="U8" pin="3"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U29" pin="3"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="J1" pin="B12"/>
+      <node ref="J1" pin="B1"/>
+      <node ref="J1" pin="A12"/>
+      <node ref="J1" pin="A1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U42" pin="3"/>
+      <node ref="U31" pin="3"/>
+      <node ref="U35" pin="3"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U20" pin="3"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U15" pin="3"/>
+      <node ref="U25" pin="3"/>
+      <node ref="U36" pin="3"/>
+      <node ref="U10" pin="3"/>
+      <node ref="U12" pin="3"/>
+      <node ref="U23" pin="3"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U19" pin="3"/>
+      <node ref="U34" pin="3"/>
+      <node ref="U24" pin="3"/>
+      <node ref="U14" pin="3"/>
+      <node ref="LS1" pin="2"/>
+      <node ref="U30" pin="3"/>
+      <node ref="U13" pin="3"/>
+    </net>
+    <net code="3" name="Net-(D2-Pad2)">
+      <node ref="U2" pin="1"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="4" name="COL2">
+      <node ref="U24" pin="2"/>
+      <node ref="U35" pin="2"/>
+      <node ref="U13" pin="2"/>
+      <node ref="U46" pin="3"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="5" name="RGB3">
+      <node ref="U2" pin="5"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="6" name="Net-(D34-Pad2)">
+      <node ref="U34" pin="1"/>
+      <node ref="D34" pin="2"/>
+    </net>
+    <net code="7" name="RGB17">
+      <node ref="U6" pin="5"/>
+      <node ref="U34" pin="4"/>
+    </net>
+    <net code="8" name="RGB18">
+      <node ref="U35" pin="4"/>
+      <node ref="U34" pin="5"/>
+    </net>
+    <net code="9" name="Net-(D24-Pad2)">
+      <node ref="D24" pin="2"/>
+      <node ref="U24" pin="1"/>
+    </net>
+    <net code="10" name="RGB13">
+      <node ref="U25" pin="4"/>
+      <node ref="U24" pin="5"/>
+    </net>
+    <net code="11" name="Net-(D13-Pad2)">
+      <node ref="D13" pin="2"/>
+      <node ref="U13" pin="1"/>
+    </net>
+    <net code="12" name="RGB8">
+      <node ref="U13" pin="5"/>
+      <node ref="U14" pin="4"/>
+    </net>
+    <net code="13" name="RGB2">
+      <node ref="U1" pin="5"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="14" name="ROW1">
+      <node ref="D3" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="U46" pin="17"/>
+      <node ref="D10" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="15" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="16" name="COL1">
+      <node ref="U46" pin="2"/>
+      <node ref="U34" pin="2"/>
+      <node ref="U12" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U23" pin="2"/>
+    </net>
+    <net code="17" name="RGBData1">
+      <node ref="U46" pin="41"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="18" name="RGB7">
+      <node ref="U13" pin="4"/>
+      <node ref="U12" pin="5"/>
+    </net>
+    <net code="19" name="Net-(D23-Pad2)">
+      <node ref="U23" pin="1"/>
+      <node ref="D23" pin="2"/>
+    </net>
+    <net code="20" name="RGB12">
+      <node ref="U23" pin="5"/>
+      <node ref="U24" pin="4"/>
+    </net>
+    <net code="21" name="Net-(D12-Pad2)">
+      <node ref="U12" pin="1"/>
+      <node ref="D12" pin="2"/>
+    </net>
+    <net code="22" name="RGB6">
+      <node ref="U12" pin="4"/>
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="23" name="RGB5">
+      <node ref="U4" pin="5"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="24" name="Net-(D36-Pad2)">
+      <node ref="D36" pin="2"/>
+      <node ref="U36" pin="1"/>
+    </net>
+    <net code="25" name="RGB20">
+      <node ref="U37" pin="4"/>
+      <node ref="U36" pin="5"/>
+    </net>
+    <net code="26" name="Net-(D25-Pad2)">
+      <node ref="D25" pin="2"/>
+      <node ref="U25" pin="1"/>
+    </net>
+    <net code="27" name="Net-(D15-Pad2)">
+      <node ref="D15" pin="2"/>
+      <node ref="U15" pin="1"/>
+    </net>
+    <net code="28" name="COL3">
+      <node ref="U36" pin="2"/>
+      <node ref="U46" pin="4"/>
+      <node ref="U25" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U14" pin="2"/>
+    </net>
+    <net code="29" name="RGB10">
+      <node ref="U16" pin="4"/>
+      <node ref="U15" pin="5"/>
+    </net>
+    <net code="30" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="31" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="32" name="RGB4">
+      <node ref="U4" pin="4"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="33" name="Net-(D35-Pad2)">
+      <node ref="D35" pin="2"/>
+      <node ref="U35" pin="1"/>
+    </net>
+    <net code="34" name="RGB19">
+      <node ref="U36" pin="4"/>
+      <node ref="U35" pin="5"/>
+    </net>
+    <net code="35" name="Net-(D14-Pad2)">
+      <node ref="U14" pin="1"/>
+      <node ref="D14" pin="2"/>
+    </net>
+    <net code="36" name="RGB14">
+      <node ref="U26" pin="4"/>
+      <node ref="U25" pin="5"/>
+    </net>
+    <net code="37" name="RGB9">
+      <node ref="U14" pin="5"/>
+      <node ref="U15" pin="4"/>
+    </net>
+    <net code="38" name="Net-(U11-Pad5)">
+      <node ref="U11" pin="5"/>
+    </net>
+    <net code="39" name="SPEAKER">
+      <node ref="U46" pin="32"/>
+      <node ref="LS1" pin="1"/>
+    </net>
+    <net code="40" name="Net-(D31-Pad2)">
+      <node ref="D31" pin="2"/>
+      <node ref="U31" pin="1"/>
+    </net>
+    <net code="41" name="RGB33">
+      <node ref="U32" pin="4"/>
+      <node ref="U31" pin="5"/>
+    </net>
+    <net code="42" name="Net-(D20-Pad2)">
+      <node ref="D20" pin="2"/>
+      <node ref="U20" pin="1"/>
+    </net>
+    <net code="43" name="RGB38">
+      <node ref="U21" pin="4"/>
+      <node ref="U20" pin="5"/>
+    </net>
+    <net code="44" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2"/>
+      <node ref="U10" pin="1"/>
+    </net>
+    <net code="45" name="RGB44">
+      <node ref="U11" pin="4"/>
+      <node ref="U10" pin="5"/>
+    </net>
+    <net code="46" name="Net-(D42-Pad2)">
+      <node ref="U42" pin="1"/>
+      <node ref="D42" pin="2"/>
+    </net>
+    <net code="47" name="COL9">
+      <node ref="U46" pin="11"/>
+      <node ref="U9" pin="2"/>
+      <node ref="U42" pin="2"/>
+      <node ref="U31" pin="2"/>
+      <node ref="U20" pin="2"/>
+    </net>
+    <net code="48" name="RGB27">
+      <node ref="U43" pin="4"/>
+      <node ref="U42" pin="5"/>
+    </net>
+    <net code="49" name="Net-(D30-Pad2)">
+      <node ref="U30" pin="1"/>
+      <node ref="D30" pin="2"/>
+    </net>
+    <net code="50" name="RGB32">
+      <node ref="U31" pin="4"/>
+      <node ref="U30" pin="5"/>
+    </net>
+    <net code="51" name="Net-(D19-Pad2)">
+      <node ref="D19" pin="2"/>
+      <node ref="U19" pin="1"/>
+    </net>
+    <net code="52" name="RGB37">
+      <node ref="U19" pin="5"/>
+      <node ref="U20" pin="4"/>
+    </net>
+    <net code="53" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2"/>
+      <node ref="U9" pin="1"/>
+    </net>
+    <net code="54" name="RGB43">
+      <node ref="U10" pin="4"/>
+      <node ref="U9" pin="5"/>
+    </net>
+    <net code="55" name="Net-(D41-Pad2)">
+      <node ref="D41" pin="2"/>
+      <node ref="U41" pin="1"/>
+    </net>
+    <net code="56" name="COL8">
+      <node ref="U8" pin="2"/>
+      <node ref="U30" pin="2"/>
+      <node ref="U19" pin="2"/>
+      <node ref="U41" pin="2"/>
+      <node ref="U46" pin="9"/>
+    </net>
+    <net code="57" name="RGB26">
+      <node ref="U41" pin="5"/>
+      <node ref="U42" pin="4"/>
+    </net>
+    <net code="58" name="RGB35">
+      <node ref="U18" pin="4"/>
+      <node ref="U33" pin="5"/>
+    </net>
+    <net code="59" name="Net-(D22-Pad2)">
+      <node ref="U22" pin="1"/>
+      <node ref="D22" pin="2"/>
+    </net>
+    <net code="60" name="RGB34">
+      <node ref="U33" pin="4"/>
+      <node ref="U32" pin="5"/>
+    </net>
+    <net code="61" name="Net-(D11-Pad2)">
+      <node ref="U11" pin="1"/>
+      <node ref="D11" pin="2"/>
+    </net>
+    <net code="62" name="RGB29">
+      <node ref="U28" pin="4"/>
+      <node ref="U44" pin="5"/>
+    </net>
+    <net code="63" name="RGB15">
+      <node ref="U26" pin="5"/>
+      <node ref="U27" pin="4"/>
+    </net>
+    <net code="64" name="Net-(D44-Pad2)">
+      <node ref="D44" pin="2"/>
+      <node ref="U44" pin="1"/>
+    </net>
+    <net code="65" name="COL11">
+      <node ref="U44" pin="2"/>
+      <node ref="U33" pin="2"/>
+      <node ref="U46" pin="13"/>
+      <node ref="U11" pin="2"/>
+      <node ref="U22" pin="2"/>
+    </net>
+    <net code="66" name="Net-(D33-Pad2)">
+      <node ref="D33" pin="2"/>
+      <node ref="U33" pin="1"/>
+    </net>
+    <net code="67" name="Net-(D21-Pad2)">
+      <node ref="U21" pin="1"/>
+      <node ref="D21" pin="2"/>
+    </net>
+    <net code="68" name="Net-(D32-Pad2)">
+      <node ref="U32" pin="1"/>
+      <node ref="D32" pin="2"/>
+    </net>
+    <net code="69" name="RGB39">
+      <node ref="U22" pin="4"/>
+      <node ref="U21" pin="5"/>
+    </net>
+    <net code="70" name="COL10">
+      <node ref="U32" pin="2"/>
+      <node ref="U46" pin="12"/>
+      <node ref="U43" pin="2"/>
+      <node ref="U10" pin="2"/>
+      <node ref="U21" pin="2"/>
+    </net>
+    <net code="71" name="ROW4">
+      <node ref="U46" pin="28"/>
+      <node ref="D36" pin="1"/>
+      <node ref="D38" pin="1"/>
+      <node ref="D39" pin="1"/>
+      <node ref="D40" pin="1"/>
+      <node ref="D37" pin="1"/>
+      <node ref="D42" pin="1"/>
+      <node ref="D44" pin="1"/>
+      <node ref="D35" pin="1"/>
+      <node ref="D34" pin="1"/>
+      <node ref="D43" pin="1"/>
+      <node ref="D41" pin="1"/>
+    </net>
+    <net code="72" name="Net-(D43-Pad2)">
+      <node ref="D43" pin="2"/>
+      <node ref="U43" pin="1"/>
+    </net>
+    <net code="73" name="RGB28">
+      <node ref="U44" pin="4"/>
+      <node ref="U43" pin="5"/>
+    </net>
+    <net code="74" name="Net-(D38-Pad2)">
+      <node ref="D38" pin="2"/>
+      <node ref="U38" pin="1"/>
+    </net>
+    <net code="75" name="COL5">
+      <node ref="U46" pin="6"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U38" pin="2"/>
+      <node ref="U16" pin="2"/>
+      <node ref="U27" pin="2"/>
+    </net>
+    <net code="76" name="RGB22">
+      <node ref="U38" pin="5"/>
+      <node ref="U17" pin="4"/>
+    </net>
+    <net code="77" name="Net-(D27-Pad2)">
+      <node ref="D27" pin="2"/>
+      <node ref="U27" pin="1"/>
+    </net>
+    <net code="78" name="RGB16">
+      <node ref="U6" pin="4"/>
+      <node ref="U27" pin="5"/>
+    </net>
+    <net code="79" name="Net-(D17-Pad2)">
+      <node ref="D17" pin="2"/>
+      <node ref="U17" pin="1"/>
+    </net>
+    <net code="80" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="81" name="Net-(D37-Pad2)">
+      <node ref="U37" pin="1"/>
+      <node ref="D37" pin="2"/>
+    </net>
+    <net code="82" name="COL4">
+      <node ref="U15" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U37" pin="2"/>
+      <node ref="U26" pin="2"/>
+      <node ref="U46" pin="5"/>
+    </net>
+    <net code="83" name="RGB21">
+      <node ref="U37" pin="5"/>
+      <node ref="U38" pin="4"/>
+    </net>
+    <net code="84" name="Net-(D26-Pad2)">
+      <node ref="U26" pin="1"/>
+      <node ref="D26" pin="2"/>
+    </net>
+    <net code="85" name="Net-(D16-Pad2)">
+      <node ref="U16" pin="1"/>
+      <node ref="D16" pin="2"/>
+    </net>
+    <net code="86" name="RGB11">
+      <node ref="U23" pin="4"/>
+      <node ref="U16" pin="5"/>
+    </net>
+    <net code="87" name="Net-(D5-Pad2)">
+      <node ref="U5" pin="1"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="88" name="RGB25">
+      <node ref="U40" pin="5"/>
+      <node ref="U41" pin="4"/>
+    </net>
+    <net code="89" name="Net-(D29-Pad2)">
+      <node ref="D29" pin="2"/>
+      <node ref="U29" pin="1"/>
+    </net>
+    <net code="90" name="COL7">
+      <node ref="U18" pin="2"/>
+      <node ref="U7" pin="2"/>
+      <node ref="U46" pin="8"/>
+      <node ref="U29" pin="2"/>
+      <node ref="U40" pin="2"/>
+    </net>
+    <net code="91" name="RGB31">
+      <node ref="U30" pin="4"/>
+      <node ref="U29" pin="5"/>
+    </net>
+    <net code="92" name="Net-(D18-Pad2)">
+      <node ref="U18" pin="1"/>
+      <node ref="D18" pin="2"/>
+    </net>
+    <net code="93" name="RGB42">
+      <node ref="U9" pin="4"/>
+      <node ref="U8" pin="5"/>
+    </net>
+    <net code="94" name="ROW2">
+      <node ref="U46" pin="18"/>
+      <node ref="D21" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="D15" pin="1"/>
+      <node ref="D19" pin="1"/>
+      <node ref="D22" pin="1"/>
+      <node ref="D13" pin="1"/>
+      <node ref="D17" pin="1"/>
+      <node ref="D18" pin="1"/>
+      <node ref="D20" pin="1"/>
+      <node ref="D14" pin="1"/>
+    </net>
+    <net code="95" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2"/>
+      <node ref="U8" pin="1"/>
+    </net>
+    <net code="96" name="Net-(D40-Pad2)">
+      <node ref="D40" pin="2"/>
+      <node ref="U40" pin="1"/>
+    </net>
+    <net code="97" name="Net-(D28-Pad2)">
+      <node ref="D28" pin="2"/>
+      <node ref="U28" pin="1"/>
+    </net>
+    <net code="98" name="COL6">
+      <node ref="U6" pin="2"/>
+      <node ref="U17" pin="2"/>
+      <node ref="U39" pin="2"/>
+      <node ref="U28" pin="2"/>
+      <node ref="U46" pin="7"/>
+    </net>
+    <net code="99" name="RGB23">
+      <node ref="U17" pin="5"/>
+      <node ref="U39" pin="4"/>
+    </net>
+    <net code="100" name="RGB24">
+      <node ref="U40" pin="4"/>
+      <node ref="U39" pin="5"/>
+    </net>
+    <net code="101" name="ROW3">
+      <node ref="D33" pin="1"/>
+      <node ref="U46" pin="27"/>
+      <node ref="D26" pin="1"/>
+      <node ref="D25" pin="1"/>
+      <node ref="D27" pin="1"/>
+      <node ref="D31" pin="1"/>
+      <node ref="D29" pin="1"/>
+      <node ref="D23" pin="1"/>
+      <node ref="D28" pin="1"/>
+      <node ref="D32" pin="1"/>
+      <node ref="D24" pin="1"/>
+      <node ref="D30" pin="1"/>
+    </net>
+    <net code="102" name="RGB30">
+      <node ref="U29" pin="4"/>
+      <node ref="U28" pin="5"/>
+    </net>
+    <net code="103" name="Net-(D39-Pad2)">
+      <node ref="U39" pin="1"/>
+      <node ref="D39" pin="2"/>
+    </net>
+    <net code="104" name="RGB36">
+      <node ref="U19" pin="4"/>
+      <node ref="U18" pin="5"/>
+    </net>
+    <net code="105" name="Net-(D7-Pad2)">
+      <node ref="U7" pin="1"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="106" name="RGB41">
+      <node ref="U8" pin="4"/>
+      <node ref="U7" pin="5"/>
+    </net>
+    <net code="107" name="RGB40">
+      <node ref="U7" pin="4"/>
+      <node ref="U22" pin="5"/>
+    </net>
+    <net code="108" name="Net-(C16-Pad1)">
+      <node ref="C16" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="Y1" pin="3"/>
+    </net>
+    <net code="109" name="+1V1">
+      <node ref="C11" pin="1"/>
+      <node ref="U46" pin="23"/>
+      <node ref="U46" pin="50"/>
+      <node ref="U46" pin="45"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="110" name="LED">
+      <node ref="R8" pin="2"/>
+      <node ref="U46" pin="36"/>
+    </net>
+    <net code="111" name="Net-(D45-Pad2)">
+      <node ref="D45" pin="2"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="112" name="Net-(SW1-Pad1)">
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="113" name="Net-(R4-Pad2)">
+      <node ref="SW1" pin="3"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="114" name="VBUS">
+      <node ref="J1" pin="B9"/>
+      <node ref="U47" pin="3"/>
+      <node ref="C14" pin="1"/>
+      <node ref="J1" pin="A9"/>
+      <node ref="J1" pin="A4"/>
+      <node ref="J1" pin="B4"/>
+    </net>
+    <net code="115" name="SPI1_CSn">
+      <node ref="U46" pin="37"/>
+    </net>
+    <net code="116" name="Net-(U46-Pad31)">
+      <node ref="U46" pin="31"/>
+    </net>
+    <net code="117" name="Net-(U46-Pad30)">
+      <node ref="U46" pin="30"/>
+    </net>
+    <net code="118" name="SPI1_RX">
+      <node ref="U46" pin="40"/>
+    </net>
+    <net code="119" name="SPI1_TX">
+      <node ref="U46" pin="39"/>
+    </net>
+    <net code="120" name="SPI1_SCK">
+      <node ref="U46" pin="38"/>
+    </net>
+    <net code="121" name="I2C1_SCL">
+      <node ref="U46" pin="35"/>
+    </net>
+    <net code="122" name="I2C1_SDA">
+      <node ref="U46" pin="34"/>
+    </net>
+    <net code="123" name="COL12">
+      <node ref="U46" pin="14"/>
+    </net>
+    <net code="124" name="Data-">
+      <node ref="R6" pin="1"/>
+      <node ref="J1" pin="A7"/>
+      <node ref="J1" pin="B7"/>
+    </net>
+    <net code="125" name="/RP2040/XOUT">
+      <node ref="R7" pin="1"/>
+      <node ref="U46" pin="21"/>
+    </net>
+    <net code="126" name="/RP2040/XIN">
+      <node ref="C13" pin="1"/>
+      <node ref="U46" pin="20"/>
+      <node ref="Y1" pin="1"/>
+    </net>
+    <net code="127" name="ROW5">
+      <node ref="U46" pin="29"/>
+    </net>
+    <net code="128" name="COL13">
+      <node ref="U46" pin="15"/>
+    </net>
+    <net code="129" name="COL14">
+      <node ref="U46" pin="16"/>
+    </net>
+    <net code="130" name="/RP2040/QSPICLK">
+      <node ref="U46" pin="52"/>
+      <node ref="U45" pin="6"/>
+    </net>
+    <net code="131" name="/RP2040/QSPISS">
+      <node ref="U46" pin="56"/>
+      <node ref="U45" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="132" name="/RP2040/SQPISD1">
+      <node ref="U46" pin="55"/>
+      <node ref="U45" pin="2"/>
+    </net>
+    <net code="133" name="/RP2040/QSPISD2">
+      <node ref="U46" pin="54"/>
+      <node ref="U45" pin="3"/>
+    </net>
+    <net code="134" name="/RP2040/QSPISD0">
+      <node ref="U45" pin="5"/>
+      <node ref="U46" pin="53"/>
+    </net>
+    <net code="135" name="/RP2040/QSPISD3">
+      <node ref="U45" pin="7"/>
+      <node ref="U46" pin="51"/>
+    </net>
+    <net code="136" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="U46" pin="47"/>
+    </net>
+    <net code="137" name="Net-(R6-Pad2)">
+      <node ref="U46" pin="46"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="138" name="Data+">
+      <node ref="J1" pin="B6"/>
+      <node ref="J1" pin="A6"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="139" name="Net-(J1-PadS1)">
+      <node ref="J1" pin="S1"/>
+    </net>
+    <net code="140" name="Net-(J1-PadA8)">
+      <node ref="J1" pin="A8"/>
+    </net>
+    <net code="141" name="Net-(J1-PadB8)">
+      <node ref="J1" pin="B8"/>
+    </net>
+    <net code="142" name="Net-(J1-PadB5)">
+      <node ref="R2" pin="2"/>
+      <node ref="J1" pin="B5"/>
+    </net>
+    <net code="143" name="Net-(J1-PadA5)">
+      <node ref="J1" pin="A5"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="144" name="/RP2040/RESET">
+      <node ref="U46" pin="26"/>
+      <node ref="SW2" pin="2"/>
+    </net>
+    <net code="145" name="/RP2040/SWD">
+      <node ref="U46" pin="25"/>
+    </net>
+    <net code="146" name="/RP2040/SWCLK">
+      <node ref="U46" pin="24"/>
+    </net>
+  </nets>
+</export>

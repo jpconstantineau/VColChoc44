@@ -1,0 +1,92 @@
+
+(rules PCB VColMX44
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 25)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.7)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.4)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    GND +3V3 "Net-(D1-Pad2)" "Net-(D2-Pad2)" "Net-(D3-Pad2)" "Net-(D4-Pad2)" "Net-(D5-Pad2)" "Net-(D6-Pad2)"
+    "Net-(D7-Pad2)" "Net-(D8-Pad2)" "Net-(D9-Pad2)" "Net-(D10-Pad2)" "Net-(D11-Pad2)" "Net-(D12-Pad2)" "Net-(D13-Pad2)" "Net-(D14-Pad2)"
+    "Net-(D15-Pad2)" "Net-(D16-Pad2)" "Net-(D17-Pad2)" "Net-(D18-Pad2)" "Net-(D19-Pad2)" "Net-(D20-Pad2)" "Net-(D21-Pad2)" "Net-(D22-Pad2)"
+    "Net-(D23-Pad2)" "Net-(D24-Pad2)" "Net-(D25-Pad2)" "Net-(D26-Pad2)" "Net-(D27-Pad2)" "Net-(D28-Pad2)" "Net-(D29-Pad2)" "Net-(D30-Pad2)"
+    "Net-(D31-Pad2)" "Net-(D32-Pad2)" "Net-(D33-Pad2)" "Net-(D34-Pad2)" "Net-(D35-Pad2)" "Net-(D36-Pad2)" "Net-(D37-Pad2)" "Net-(D38-Pad2)"
+    "Net-(D39-Pad2)" "Net-(D40-Pad2)" "Net-(D41-Pad2)" "Net-(D42-Pad2)" "Net-(D43-Pad2)" "Net-(D44-Pad2)" VCC ROW1
+    ROW2 ROW3 ROW4 COL1 COL2 COL3 COL4 COL5
+    COL6 COL7 COL8 COL9 COL10 COL11 RGB2 RGB3
+    RGB4 RGB5 RGB6 RGB7 RGB8 RGB9 RGB10 RGB11
+    RGB16 RGB17 RGB12 RGB13 RGB14 RGB15 RGB34 RGB29
+    RGB28 RGB30 RGB31 RGB32 RGB33 RGB18 RGB19 RGB20
+    RGB21 RGB22 RGB23 RGB24 RGB25 RGB26 RGB27 RGB35
+    RGB41 RGB40 RGB42 RGB43 RGB44 RGB36 RGB37 RGB38
+    RGB39 SPEAKER +1V1 /RP2040/XIN VBUS "Net-(C16-Pad1)" "Net-(D45-Pad2)" "Net-(J1-PadA5)"
+    "Data-" Data+ "Net-(J1-PadB5)" "Net-(J1-PadS1)" /RP2040/QSPISS "Net-(R4-Pad2)" "Net-(R5-Pad2)" "Net-(R6-Pad2)"
+    /RP2040/XOUT LED /RP2040/RESET RGBData1 /RP2040/QSPISD3 /RP2040/QSPICLK /RP2040/QSPISD0 /RP2040/QSPISD2
+    /RP2040/SQPISD1
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
