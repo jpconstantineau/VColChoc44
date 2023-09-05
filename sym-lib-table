@@ -1,4 +1,6 @@
 (sym_lib_table
   (lib (name CherryMX)(type Legacy)(uri ${KIPRJMOD}/symbols/CherryMX.lib)(options "")(descr ""))
   (lib (name MCU_RaspberryPi_and_Boards)(type Legacy)(uri ${KIPRJMOD}/symbols/MCU_RaspberryPi_and_Boards.lib)(options "")(descr ""))
+  (lib (name diode-choc)(type Legacy)(uri ${KIPRJMOD}/symbols/diode-choc.lib)(options "")(descr ""))
+  (lib (name nrfmicro)(type Legacy)(uri ${KIPRJMOD}/nrfmicro.lib)(options "")(descr ""))
 )

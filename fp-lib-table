@@ -2,4 +2,7 @@
   (lib (name CherryMX_PCB_KailhSocket_LTST-A683CEGBW-Rotated)(type KiCad)(uri ${KIPRJMOD}/CherryMX_PCB_KailhSocket_LTST-A683CEGBW-Rotated.pretty)(options "")(descr ""))
   (lib (name MCU_RaspberryPi_and_Boards)(type KiCad)(uri ${KIPRJMOD}/MCU_RaspberryPi_and_Boards.pretty)(options "")(descr ""))
   (lib (name keyswitches)(type KiCad)(uri ${KIPRJMOD}/keyswitches.pretty)(options "")(descr ""))
+  (lib (name JLCPCBA)(type KiCad)(uri ${KIPRJMOD}/JLCPCBA.pretty)(options "")(descr ""))
+  (lib (name pg1232)(type KiCad)(uri ${KIPRJMOD}/pg1232.pretty)(options "")(descr ""))
+  (lib (name nrfmicro)(type KiCad)(uri ${KIPRJMOD}/nrfmicro.pretty)(options "")(descr ""))
 )

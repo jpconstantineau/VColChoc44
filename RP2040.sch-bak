@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 20669 13780
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title "PyKey60 RP2040"
 Date "2021-09-16"
 Rev "1.0"
